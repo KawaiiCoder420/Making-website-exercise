@@ -1,0 +1,112 @@
+body {
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.headerlogo {
+        display: flex;
+        justify-content: space-between; /* Distribute space between items */
+        align-items: center; /* Align items vertically in the center */
+        border: 1px solid black; /* Example border */
+        padding: 10px; /* Optional: Add some padding */
+    }
+    
+    .headerlogo h1 {
+        margin: 0; /* Remove default margin */
+    }
+    
+    .headerlogo a {
+        margin-left: 10px; /* Optional: Add some space between buttons */
+    }
+    .box {
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+    }   
+    .deze {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: blue !important;
+    }
+    .button{
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .deze1{
+        align-items: left;
+        justify-content: space-around;
+
+    }
+    .deze3 {
+        width: 100px; /* Set the desired width */
+        height: 100px; /* Set the desired height */
+        border: 3px solid blue; /* Optional: Add a border to make the boxes visible */
+        margin: 10px; /* Optional: Add some margin between the boxes */
+    }
+    .dezes{
+        display: flex;
+        justify-content: center;
+
+    }
+    .testimonial{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        padding: 20px; 
+    }
+    .quote{
+        text-align: center;
+        width: 300px;
+        word-wrap: break-word;
+    }
+    .author{
+text-align: right;
+margin-top: 10px;
+padding-left: 200px;
+    }
+    .signup{
+        display: flex;
+    flex-direction: row; /* Align items horizontally */
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    padding: 20px;
+    margin: 50px auto; /* Center the element horizontally */
+    width: 600px;
+    }
+    .signup-button{
+        width: 100px;
+        margin: 10px;
+    }
+    .text10{
+        display: flex;
+        flex-direction: column;
+    }
+    .time {
+        margin-bottom: 5px; /* Reduce the space between the time and time1 text */
+    }
+    .time1 {
+        margin-top: 0; /* Remove any default margin at the top */
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        padding: 10px;
+    }
+    .footercontainer {
+        display: flex;
+        min-height: 100vh; /* Remove the default margin */
+        flex-direction: column; /* Align items vertically */
+        justify-content: space-between; /* Distribute space between items */
+    }
