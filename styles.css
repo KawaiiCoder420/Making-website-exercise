@@ -25,30 +25,34 @@ body {
     .box {
         width: 500px;
         height: 100px;
-        border: 1px solid black;
+        background-color: gray;
         padding: 10px;
         margin: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
         font-family: 'Roboto', sans-serif;
+        color: #f9faf8;
     }   
     .deze {
         display: flex;
         align-items: center;
         justify-content: space-around;
         background-color: #1f2937;
+        height: 600px;
     }
     .button{
         background-color: blue;
-        color: white;
+        color: #f9faf8;
         font-size: 20px;
         border-radius: 10px;
+        width: 120px;
     }
     .deze1{
         align-items: left;
         justify-content: space-around;
         max-width: 300px;
+        padding-right: 400px;
     }
     .deze1 h1{
         font-size: 48;
@@ -65,6 +69,7 @@ body {
         height: 100px; /* Set the desired height */
         border: 3px solid blue; /* Optional: Add a border to make the boxes visible */
         margin: 10px; /* Optional: Add some margin between the boxes */
+        border-radius: 10%; /* Make the boxes round */
     }
     .dezes{
         display: flex;
@@ -95,18 +100,30 @@ padding-left: 200px;
     flex-direction: row; /* Align items horizontally */
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    background-color: #3882f6;
     padding: 20px;
     margin: 50px auto; /* Center the element horizontally */
     width: 600px;
+    color: #f9faf8;
+    height: 5%;
+    border-radius: 5px;
     }
     .signup-button{
+        height: 25px;
         width: 100px;
         margin: 10px;
+        background-color: transparent;
+        color: #f9faf8;
+        border-radius: 10px;
+        border: none; /* Ensure there's no border */
+        outline: none; /* Remove the default browser outline */
+        box-shadow: 0 0 0 2px white; /* Add a custom white outline effect */
     }
     .text10{
         display: flex;
         flex-direction: column;
+        padding-right: 50px;
+        padding-left: 50px;
     }
     .time {
         margin-bottom: 5px; /* Reduce the space between the time and time1 text */
@@ -153,4 +170,12 @@ padding-left: 200px;
         background: none; /* Remove background */
         border: none; /* Remove border */
         color: white; /* Set text color */
-        font-size: 18px; /*
+        font-size: 18px; /* Set font size */
+    }
+    .deze3-container {
+        display: flex;
+        flex-direction: column; /* Stack the elements vertically */
+        align-items: center; /* Center-align the elements */
+        margin: 10px; /* Add some margin between the containers */
+        width: 150px; /* Set a fixed width to control text wrapping */
+    }
